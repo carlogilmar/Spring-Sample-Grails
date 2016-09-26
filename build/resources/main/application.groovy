@@ -1,6 +1,7 @@
 
 
 // Added by the Spring Security Core plugin:
+grails.plugin.springsecurity.securityConfigType = "Annotation"
 grails.plugin.springsecurity.logout.postOnly = false
 grails.plugins.springsecurity.useBasicAuth = true
 grails.plugin.springsecurity.userLookup.userDomainClassName = 'com.testapp.User'
